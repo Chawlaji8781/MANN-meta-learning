@@ -1,0 +1,18 @@
+batch_size: 16
+nb_classes: 5
+nb_samples_per_class: 10
+input_height: 20
+input_width: 20
+nb_reads: 4
+controller_size: 200
+memory_size: 128
+memory_dim: 40
+num_layers: 1
+learning_rate: 0.001
+iterations: 100000
+test_iterations: 100
+mode: test  # or 'train'
+data_folder: MANN/data/omniglot
+save_dir: MANN/ckpt/exp1/train/
+log_dir: MANN/log/exp1/train/
+model: MANN
